@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 20 00:34:17 EDT 2018</td>
+<td>Started on:</td><td>Fri Apr 20 04:42:24 EDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4126 ms)</td>
+<tr><td>Total time:</td><td>23 seconds (23902 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,9 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.testcases.Day1.test()'><b>test</b><br>Test class: com.testcases.Day1</td>
-<td><div><pre>java.lang.AssertionError: Test Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.testcases.Day1.test(Day1.java:100)
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [34] but found [37],
+	expected [--] but found [59],
+	expected [62] but found [38],
+	expected [2] but found [8],
+	expected [NW] but found [NE],
+	Test Failed
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.testcases.Day1.test(Day1.java:203)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -104,10 +110,16 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1267655902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1267655902'><pre>java.lang.AssertionError: Test Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.testcases.Day1.test(Day1.java:100)
+</pre></div><a href='#' onClick='toggleBox("stack-trace760357227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace760357227'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [34] but found [37],
+	expected [--] but found [59],
+	expected [62] but found [38],
+	expected [2] but found [8],
+	expected [NW] but found [NE],
+	Test Failed
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.testcases.Day1.test(Day1.java:203)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -134,7 +146,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
+<td>22</td>
 <td>com.testcases.Day1@39aeed2f</td></tr>
 </table><p>
 </body>

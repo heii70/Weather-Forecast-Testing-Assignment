@@ -1,13 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test name="10DayWeatherForeCast(failed)">
+  <test name="Day1(failed)">
     <classes>
       <class name="com.testcases.Day9">
         <methods>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day6">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day6 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
+    </classes>
+  </test> <!-- Day1(failed) -->
+  <test name="Day2(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
       <class name="com.testcases.Day7">
         <methods>
           <include name="closeBrowser"/>
@@ -22,29 +82,453 @@
       <class name="com.testcases.Day1">
         <methods>
           <include name="closeBrowser"/>
-          <include name="test"/>
         </methods>
       </class> <!-- com.testcases.Day1 -->
-      <class name="com.testcases.Day3">
+      <class name="com.testcases.Day6">
         <methods>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.testcases.Day3 -->
-      <class name="com.testcases.Day4">
-        <methods>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.testcases.Day4 -->
+      </class> <!-- com.testcases.Day6 -->
       <class name="com.testcases.Day10">
         <methods>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
       <class name="com.testcases.Day8">
         <methods>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.testcases.Day8 -->
+    </classes>
+  </test> <!-- Day2(failed) -->
+  <test name="Day3(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day6">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day6 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
+    </classes>
+  </test> <!-- Day3(failed) -->
+  <test name="Day4(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day6">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day6 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
+    </classes>
+  </test> <!-- Day4(failed) -->
+  <test name="Day5(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day6">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day6 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="test"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
+    </classes>
+  </test> <!-- Day5(failed) -->
+  <test name="Day6(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day6">
+        <methods>
+          <include name="test"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day6 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
+    </classes>
+  </test> <!-- Day6(failed) -->
+  <test name="Day7(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day6">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day6 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
+    </classes>
+  </test> <!-- Day7(failed) -->
+  <test name="Day8(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day6">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day6 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="test"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+    </classes>
+  </test> <!-- Day8(failed) -->
+  <test name="Day9(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="test"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day6">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day6 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
+    </classes>
+  </test> <!-- Day9(failed) -->
+  <test name="Day10(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="test"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
       <class name="com.testcases.Day6">
         <methods>
           <include name="closeBrowser"/>
@@ -55,6 +539,16 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.testcases.Day5 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
     </classes>
-  </test> <!-- 10DayWeatherForeCast(failed) -->
+  </test> <!-- Day10(failed) -->
 </suite> <!-- Failed suite [Suite] -->

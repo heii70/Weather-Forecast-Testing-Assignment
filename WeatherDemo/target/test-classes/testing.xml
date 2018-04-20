@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
-  <test name="10DayWeatherForeCast">
-    <classes>
+  <test name="Day1">
+  	<classes>
       <class name="com.testcases.Day1"/>
+    </classes>
+  </test>
+  <test name="Day2">
+  	<classes>
       <class name="com.testcases.Day2"/>
+    </classes>
+  </test>
+  <test name="Day3">
+   	<classes>
       <class name="com.testcases.Day3"/>
+    </classes>
+  </test>
+  <test name="Day4">
+  	<classes>
       <class name="com.testcases.Day4"/>
+    </classes>
+  </test>
+  <test name="Day5">
+  	<classes>
       <class name="com.testcases.Day5"/>
+    </classes>
+  </test>
+  <test name="Day6">
+  	<classes>
       <class name="com.testcases.Day6"/>
+    </classes>
+  </test>
+  <test name="Day7">
+  	<classes>
       <class name="com.testcases.Day7"/>
+    </classes>
+  </test>
+  <test name="Day8">
+  	<classes>
       <class name="com.testcases.Day8"/>
+    </classes>
+  </test>
+  <test name="Day9">
+  	<classes>
       <class name="com.testcases.Day9"/>
+    </classes>
+  </test>
+  <test name="Day10">
+  	<classes>
       <class name="com.testcases.Day10"/>
     </classes>
   </test> <!-- Test -->
