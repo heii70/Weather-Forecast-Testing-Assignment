@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="10DayWeatherForeCast(failed)">
+    <classes>
+      <class name="com.testcases.Day9">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day9 -->
+      <class name="com.testcases.Day7">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day7 -->
+      <class name="com.testcases.Day2">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.testcases.Day2 -->
+      <class name="com.testcases.Day1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.testcases.Day1 -->
+      <class name="com.testcases.Day3">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day3 -->
+      <class name="com.testcases.Day4">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day4 -->
+      <class name="com.testcases.Day10">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day10 -->
+      <class name="com.testcases.Day8">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day8 -->
+      <class name="com.testcases.Day6">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day6 -->
+      <class name="com.testcases.Day5">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Day5 -->
+    </classes>
+  </test> <!-- 10DayWeatherForeCast(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="10DayWeatherForeCast">
+    <classes>
+      <class name="com.testcases.Day1"/>
+      <class name="com.testcases.Day2"/>
+      <class name="com.testcases.Day3"/>
+      <class name="com.testcases.Day4"/>
+      <class name="com.testcases.Day5"/>
+      <class name="com.testcases.Day6"/>
+      <class name="com.testcases.Day7"/>
+      <class name="com.testcases.Day8"/>
+      <class name="com.testcases.Day9"/>
+      <class name="com.testcases.Day10"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
