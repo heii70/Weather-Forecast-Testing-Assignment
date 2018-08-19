@@ -70,10 +70,11 @@ public class ForecastTest {
     
     //@Parameters({"testPeriod"})
     @BeforeClass
-    public void setupClass(/*long testPeriod*/) {
+    public void setupClass(/*int testPeriodIndex*/) {
     	// initialize driver, instance variables, & configurations
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 20);
+        //this.testPeriodIndex = testPeriodIndex;
         
         this.Date = new String[10];
         
@@ -104,11 +105,11 @@ public class ForecastTest {
     }
     
 	@DataProvider
-	public static Object[] setTestPeriodIndex() {
-		Object[] testPeriodIndexList = new Object[10];
+	public static Object[][] setTestPeriodIndex() {
+		Object[][] testPeriodIndexList = new Object[10][1];
 		
 		for(int i = 0; i < 10; i++) {
-			testPeriodIndexList[i] = i;
+			testPeriodIndexList[i][0] = i;
 		}
 		return testPeriodIndexList;
 	}
